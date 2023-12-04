@@ -1,7 +1,7 @@
 <h1> Secret Tunnel </h1>
 
 
-<p> This server has two web servers, one on port 80 with which we can retrieve the first 32 characters of a web page and the other on port 1337 which displays the flag but which is only accessible locally.</p>
+<p> This server has two flask web servers, one on port 80 with which we can retrieve the first 32 characters of a web page and the other on port 1337 which displays the flag but which is only accessible locally.</p>
 
 ```bash
 $ curl -X POST -d "url=https://nbctf.com/" https://secret-tunnel.chal.nbctf.com/fetchdata                                   
