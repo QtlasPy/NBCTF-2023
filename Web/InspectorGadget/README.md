@@ -5,4 +5,8 @@
 
 <img src=1.png></img>
 
-<p>  In  the same HTML code we notice a particular function `getflag()` which redirects us to a text file name `supersecrettopsecret.txt`. </p>
+<p> In  the same HTML code we notice a particular function `getflag()` which redirects us to a text file name `supersecrettopsecret.txt`, which brings us to the second part of the flag.</p>
+
+<img src=2.png</img>
+
+<p>

