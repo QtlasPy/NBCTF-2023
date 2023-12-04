@@ -6,7 +6,7 @@ First we find the 3rd part of the flag with a simple analysis of the HTML code. 
 ```bash
 $ curl https://inspector-gadget.chal.nbctf.com/
         ...
-        
+
         function getflag(){
             window.location.href="supersecrettopsecret.txt"
         }
@@ -45,13 +45,13 @@ $ curl https://inspector-gadget.chal.nbctf.com/gadgetmag.html
 
 <p> For the last part we cannot find it by browsing through the HTTP links, you have to look at /robots.txt and go to /mysecretfiles.html </p>
 
-```bash
+```
 $ curl https://inspector-gadget.chal.nbctf.com/robots.txt    
 User-agent: *
 Disallow: /mysecretfiles.html
 ```
 
-```bash
+```
 $ curl https://inspector-gadget.chal.nbctf.com/mysecretfiles.html                                                  
 <!DOCTYPE html>
 <html lang="en">
